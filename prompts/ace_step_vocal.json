@@ -1,0 +1,12 @@
+{
+    "messages": [
+        {"role": "user", "content": "<prompt>{vocal_style} vocals in {genre} style, {tags[0]}</prompt>\n<lyrics>[Verse]\nFeeling the rhythm of the night\n{direction}[/Verse]"}
+    ],
+    "audio_config": {
+        "duration": 30,
+        "instrumental": false,
+        "vocal_language": "{lyrics_language}"
+    },
+    "sample_mode": true,
+    "use_cot_caption": true
+}

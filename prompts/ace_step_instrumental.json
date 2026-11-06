@@ -1,0 +1,12 @@
+{
+    "messages": [
+        {"role": "user", "content": "<prompt>Upbeat {genre} track, {tags[0]}, {tags[1]}, energy level {energy}/10</prompt>"}
+    ],
+    "audio_config": {
+        "duration": 30,
+        "instrumental": true,
+        "vocal_language": "en"
+    },
+    "sample_mode": true,
+    "use_cot_caption": true
+}
